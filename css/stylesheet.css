@@ -1,0 +1,281 @@
+@media screen and (max-width: 767px) {
+  section {
+    flex-direction: column;
+  }
+
+  .content-left {
+    width: 100%;
+  }
+
+  .content-right {
+    width: 100%;
+  }
+}
+
+body {
+  background-color: rgb(244, 244, 244);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link-menu {
+  list-style: none;
+  display: flex;
+  padding: 0 20px;
+  color: gray;
+}
+
+li {
+  padding: 10px 30px;
+  border: solid 1px gray;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+li:hover {
+  background-color: turquoise;
+  cursor: pointer;
+  box-shadow: inset 2px 2px black;
+  transition: all 800ms;
+}
+
+.logo {
+  font-size: 14px;
+  color: turquoise;
+  text-shadow: 2px 1px rgb(0, 0, 0);
+  padding: 0 20px;
+}
+
+.tittle h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: lightseagreen;
+  padding-top: 50px;
+}
+
+.tittle p {
+  display: flex;
+  justify-content: center;
+  color: rgb(90, 90, 90);
+  padding-bottom: 100px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 200px;
+}
+
+.image-wrapper {
+  width: 50%;
+  height: 300px;
+  background-color: rgb(188, 188, 188);
+}
+
+.image-1 {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 20em;
+  width: 36em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.image {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.content-right {
+  width: auto;
+  background-color: lightgray;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.content-right h2,
+p {
+  text-align: center;
+}
+
+form p {
+  text-align: start;
+  padding-left: 55px;
+}
+
+.form-subtitle {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+input {
+  height: 25px;
+  width: 70%;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+select {
+  height: 35px;
+  width: 75%;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.btn-submit {
+  margin: 40px 20px;
+  border-radius: 5px;
+  height: 35px;
+  color: beige;
+  background-color: darkslategray;
+}
+
+.btn-submit:hover {
+  margin: 40px 20px;
+  border-radius: 5px;
+  height: 35px;
+  box-shadow: inset 2px 2px black;
+  color: black;
+  background-color: turquoise;
+  cursor: pointer;
+}
+
+form {
+  text-align: center;
+}
+
+.testi-content {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.pekerjaan {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+.nama-user {
+  display: flex;
+  justify-content: center;
+}
+
+.profil-picture {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+
+.profil-picture:hover {
+  cursor: pointer;
+}
+.pp-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  height: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.package {
+  display: flex;
+  margin-top: -100px;
+}
+
+.package-name {
+  margin-top: 50px;
+}
+
+.package-title {
+  margin-top: 100px;
+  margin-bottom: -100px;
+  display: flex;
+  justify-content: center;
+}
+
+.package-picture {
+  border-radius: 30%;
+  width: 100px;
+  height: 100px;
+  padding: 10px 30px;
+  margin-top: -10px;
+  margin-bottom: 100px;
+  filter: grayscale(1);
+  opacity: 0.6;
+}
+
+.package-picture:hover {
+  transition: all 500ms;
+  opacity: 1;
+  cursor: pointer;
+  filter: none;
+}
+.footer-content span {
+  color: rgb(233, 182, 0);
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+}
+
+.fade-in {
+  animation: fade 3s infinite;
+}
+
+button {
+  background-color: rgb(233, 182, 0);
+  color: black;
+  border-radius: 20px;
+  height: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}

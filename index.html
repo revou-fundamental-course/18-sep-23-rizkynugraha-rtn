@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta author="Rizky Trisna Nugraha" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+
+    <title>eGrocery Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1><span>e</span>Grocery</h1>
+      </div>
+      <ul class="link-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#package">Our Package</a></li>
+        <li><a href="#call-us">Call Us</a></li>
+      </ul>
+    </header>
+    <hr />
+
+    <div class="tittle">
+      <h1>
+        Top Rated E-Groceries Shop in the <br />
+        Indonesia
+      </h1>
+      <p>Every Day with best Ingredients</p>
+    </div>
+    <section id="content">
+      <div class="content-left">
+        <div class="image active">
+          <img src="images/grocery.jpeg" id="home" />
+        </div>
+        <div class="image" id="image">
+          <img src="images/fruit.jpeg" />
+        </div>
+        <div class="testimonial-1">
+          <p class="testi-content">"Setiap hari saya beli buah disini, buahnya fresh bund!"</p>
+          <div class="testimonial-profil">
+            <div class="pp-wrapper">
+              <img class="profil-picture" src="images/ts.jpeg" alt="" />
+            </div>
+            <div class="user-info" id="testimonial">
+              <h4 class="nama-user">Taylor Swift</h4>
+              <p class="pekerjaan">Ibu rumah tangga, 28thn</p>
+            </div>
+          </div>
+        </div>
+        <h2 class="package-title">Our Package</h2>
+      </div>
+      <div class="content-right">
+        <h2>Contact Us</h2>
+        <p class="form-subtitle">Sales akan menghubungi anda dalam 1x24 jam <br />setelah pesan diterima</p>
+        <form action="" id="contact-form">
+          <p>Your Name:</p>
+          <input type="text" id="your-name" class="nama" placeholder="First and Last Name" />
+          <p class="error-message" id="name-error"></p>
+          <p>Email Address:</p>
+          <input type="text" id="your-email" class="email" placeholder="Your Email Address" />
+          <p class="error-message" id="email-error"></p>
+          <p>What are you interested in?</p>
+          <select id="your-interest" class="interest">
+            <option value="" disabled selected>Select your option</option>
+            <option value="vegetables">Fresh Vegetables</option>
+            <option value="fruits">Fresh Fruits</option>
+            <option value="milk">Fresh Milk</option>
+            <option value="others">Others</option>
+          </select>
+          <p class="error-message" id="interest-error"></p>
+          <div>
+            <input id="btn-submit" class="btn-submit" type="submit" value="SEND" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="package" id="package">
+      <img class="package-picture" src="images/veg.jpeg" alt="" />
+      <p class="package-name">Fresh Vegetables</p>
+      <img class="package-picture" src="images/fruit.jpeg" alt="" />
+      <p class="package-name">Fresh Fruits</p>
+      <img class="package-picture" src="images/grocery.jpeg" alt="" />
+      <p class="package-name">Fresh Milk</p>
+    </div>
+    <footer>
+      <hr />
+      <div class="footer-content" id="call-us">
+        <button id="btn-footer hide">This Website made with ❤️ by Rizky Trisna Nugraha</button>
+        <p id="footername"></p>
+        <p>for <span>RevoU</span> SEFC mini Coding Project</p>
+      </div>
+    </footer>
+  </body>
+  <script src="js/script.js"></script>
+</html>
